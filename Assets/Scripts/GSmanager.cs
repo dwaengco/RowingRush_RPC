@@ -9,7 +9,7 @@ using TMPro;
 [System.Serializable]
 public class GoogleData
 {
-    public string order, result, msg, distance, time, speed;
+    public string order, result, msg, distance, time, speed, curID;
 }
 
 
@@ -72,6 +72,10 @@ public class GSmanager : MonoBehaviour
 
         StartCoroutine(Post(form));
 
+        //myID.text = id;
+        myID.text = GD.curID;
+
+        DontDestroyOnLoad(myID);
     }
 
     void OnApplicationQuit()

@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
 public class Distance : MonoBehaviour
 {
+    private GSmanager scriptG;
+
 
     public GameObject paddle;
     public GameObject paddle1;
@@ -313,6 +316,9 @@ public class Distance : MonoBehaviour
             StopCoroutine("CalSpeed");
             FinishMenu.SetActive(true);
             StartCoroutine("curScore");
+
+            scriptG = GameObject.Find("GSmanager").GetComponent<GSmanager>();
+            scriptG.SetValue((TargetDistance / 1000).ToString(), curTimeText.text.ToString(), avgSpeed.ToString("F0"));
         }
 
     }

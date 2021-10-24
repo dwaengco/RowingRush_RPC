@@ -13,7 +13,7 @@ public class ChooseMode : MonoBehaviour
 
     public void SceneChange_multi()
     {
-        SceneManager.LoadScene("GameRoom");
+        SceneManager.LoadScene("Select");
 
     }
 
