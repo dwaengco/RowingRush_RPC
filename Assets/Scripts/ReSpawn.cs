@@ -11,6 +11,9 @@ public class ReSpawn : MonoBehaviour
     {
         player = Instantiate(charPrefabs[(int)DataMgr.instance.currentCharacter]);
         player.transform.position = transform.position;
+        player.transform.localScale = transform.localScale;
+        player.transform.rotation = transform.rotation;
+
     }
 
 }
