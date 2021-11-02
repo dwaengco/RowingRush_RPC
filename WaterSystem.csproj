@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B9AB6E8E-F269-D26E-DE9D-62AF3C9B082C}</ProjectGuid>
+    <ProjectGuid>{BB2321CD-E925-BA84-CFB9-94CFD2EAA306}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>WaterSystem</AssemblyName>

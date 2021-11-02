@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{70E8CA22-8E31-26FC-DDE1-E7296F6DA45C}</ProjectGuid>
+    <ProjectGuid>{FD2391DA-F28A-E5AA-3D2D-D28272C7E414}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonWebSocket</AssemblyName>

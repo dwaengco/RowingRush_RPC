@@ -53,7 +53,7 @@ public class SelectChar : MonoBehaviour
         else OnDeSelect();
     }
 
-    private void OnMouseUpAsButton()
+    public void OnMouseUpAsButton()
     {
         DataMgr.instance.currentCharacter = character;
         OnSelect();

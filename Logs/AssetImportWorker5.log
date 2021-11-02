@@ -1,0 +1,276 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'ko' Physical Memory: 7993 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/user/OneDrive/바탕 화면/RPC2/RowingRush_RPC
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+64830
+Successfully changed project path to: C:/Users/user/OneDrive/바탕 화면/RPC2/RowingRush_RPC
+C:/Users/user/OneDrive/바탕 화면/RPC2/RowingRush_RPC
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 347.49 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 3.29 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/OneDrive/바탕 화면/RPC2/RowingRush_RPC/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   
+    VRAM:     3996 MB
+    Driver:   27.20.100.9079
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009098 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 181.69 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.024 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.097385 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 239.72 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\OneDrive\바탕 화면\RPC2\RowingRush_RPC\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\OneDrive\바탕 화면\RPC2\RowingRush_RPC\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.013 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+Unloading 5108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 294.9 MB.
+System memory in use after: 295.1 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 5614.
+Total: 7.924600 ms (FindLiveObjects: 0.812700 ms CreateObjectMapping: 0.625100 ms MarkObjects: 6.286900 ms  DeleteObjects: 0.197800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown Arrow.png
+  artifactKey: Guid(936345f7fc3934efa8119a8700d904c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown Arrow.png using Guid(936345f7fc3934efa8119a8700d904c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a4713f79c667698cf3e9fb91857e97') in 0.187060 seconds
+  Import took 0.202033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Scripts/SelectChar.cs
+  artifactKey: Guid(d0f390c9a7047d146b0d63f5ea827a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SelectChar.cs using Guid(d0f390c9a7047d146b0d63f5ea827a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466a4d8a08f6e3c3f9a6c414adc8b0a1') in 0.040645 seconds
+  Import took 0.056355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/GoraniFile/cancel-47588.png
+  artifactKey: Guid(3235e42bd43fb5d46995df2b652080c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoraniFile/cancel-47588.png using Guid(3235e42bd43fb5d46995df2b652080c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f39a1650c06219a6a84123da6d07ae1') in 0.071608 seconds
+  Import took 0.087516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/TeamGunner_By_SecretHideout_060519/EXTRAS/BulletStream.png
+  artifactKey: Guid(721a5506ffbeee44b920cf62900ffb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TeamGunner_By_SecretHideout_060519/EXTRAS/BulletStream.png using Guid(721a5506ffbeee44b920cf62900ffb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2d2dd1c478e27ee33b98e3652b0150') in 0.035268 seconds
+  Import took 0.049352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Faces/Bodies/Body_3.png
+  artifactKey: Guid(5de03d0e91829474daaf0a916af221e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Faces/Bodies/Body_3.png using Guid(5de03d0e91829474daaf0a916af221e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baafbb5993760174e9a3d610ac40b5a') in 0.042396 seconds
+  Import took 0.056529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Faces/Bodies/Body_1.png
+  artifactKey: Guid(310f890fa847d413787ecf9ccb0dd296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Faces/Bodies/Body_1.png using Guid(310f890fa847d413787ecf9ccb0dd296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e46d36a3a83e6f217428c14a7af14a') in 0.044019 seconds
+  Import took 0.057874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Faces/Bodies/Body_2.png
+  artifactKey: Guid(b756df9f213c1412787411e3f309d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Faces/Bodies/Body_2.png using Guid(b756df9f213c1412787411e3f309d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367d2faddb715243a8ea735bb52ecb01') in 0.041848 seconds
+  Import took 0.059207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Image/Cal_Image.png
+  artifactKey: Guid(fb36f96049087364a92984ce05ed20e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Cal_Image.png using Guid(fb36f96049087364a92984ce05ed20e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8351dd6eeea3cd40eedf9fae295ee148') in 0.059971 seconds
+  Import took 0.075992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/GoraniFile/banner-151700.png
+  artifactKey: Guid(cbce85d96aca6b44d9f9eb50ed15c03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoraniFile/banner-151700.png using Guid(cbce85d96aca6b44d9f9eb50ed15c03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48db2195a276d967eee8c8091301d08') in 0.096255 seconds
+  Import took 0.115203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Image/Dis_Image.png
+  artifactKey: Guid(7d5c84efeef86e64ab471f8457de1cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Dis_Image.png using Guid(7d5c84efeef86e64ab471f8457de1cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b068bd94b9816dfc0032412f06001f2') in 0.059583 seconds
+  Import took 0.074563 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.098903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\OneDrive\바탕 화면\RPC2\RowingRush_RPC\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\OneDrive\바탕 화면\RPC2\RowingRush_RPC\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.555 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 4858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 283.8 MB.
+System memory in use after: 284.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5641.
+Total: 7.906300 ms (FindLiveObjects: 0.863400 ms CreateObjectMapping: 0.759900 ms MarkObjects: 6.211900 ms  DeleteObjects: 0.068800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.164865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.89 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\OneDrive\바탕 화면\RPC2\RowingRush_RPC\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\OneDrive\바탕 화면\RPC2\RowingRush_RPC\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.310 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.18 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Unloading 4858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 283.9 MB.
+System memory in use after: 284.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5646.
+Total: 13.402300 ms (FindLiveObjects: 2.661200 ms CreateObjectMapping: 1.768900 ms MarkObjects: 8.893800 ms  DeleteObjects: 0.075300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.083223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.67 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\OneDrive\바탕 화면\RPC2\RowingRush_RPC\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\OneDrive\바탕 화면\RPC2\RowingRush_RPC\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.907 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 4858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 284.0 MB.
+System memory in use after: 284.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5651.
+Total: 6.257700 ms (FindLiveObjects: 0.775600 ms CreateObjectMapping: 0.543500 ms MarkObjects: 4.883100 ms  DeleteObjects: 0.053800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.071781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\OneDrive\바탕 화면\RPC2\RowingRush_RPC\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\OneDrive\바탕 화면\RPC2\RowingRush_RPC\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.999 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 4858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 284.0 MB.
+System memory in use after: 284.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5656.
+Total: 7.168800 ms (FindLiveObjects: 0.914000 ms CreateObjectMapping: 0.548200 ms MarkObjects: 5.651100 ms  DeleteObjects: 0.053900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

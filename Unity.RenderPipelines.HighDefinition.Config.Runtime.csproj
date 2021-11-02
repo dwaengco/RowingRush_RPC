@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{97FD0A11-E0CC-09D2-0337-7537A76E40CC}</ProjectGuid>
+    <ProjectGuid>{597093EF-DC62-8515-5212-DDDBE70E05E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.RenderPipelines.HighDefinition.Config.Runtime</AssemblyName>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9900C5C2-0BC2-CABD-2345-9C80BA27D984}</ProjectGuid>
+    <ProjectGuid>{0567AFC6-DC5F-AFF2-85DE-592B27FC4059}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>WaterSystem.Editor</AssemblyName>
@@ -708,7 +708,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="WaterSystem.csproj">
-      <Project>{B9AB6E8E-F269-D26E-DE9D-62AF3C9B082C}</Project>
+      <Project>{BB2321CD-E925-BA84-CFB9-94CFD2EAA306}</Project>
       <Name>WaterSystem</Name>
     </ProjectReference>
   </ItemGroup>
